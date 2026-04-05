@@ -11,7 +11,7 @@ ORDER BY price DESC
 LIMIT 10;
 
 -- 4.
-SELECT COUNT(price) as rows_in_20_100 FROM uni_tasks.products
+SELECT COUNT(*) as rows_in_20_100 FROM uni_tasks.products
 WHERE price BETWEEN 20 AND 100;
 
 -- 5.
